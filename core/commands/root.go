@@ -151,8 +151,9 @@ var rootSubcommands = map[string]*cmds.Command{
 	"shutdown":  daemonShutdownCmd,
 	"cid":       CidCmd,
 	"rm":        RmCmd,
+	"storage":   StorageCmd,
+	"guard":     GuardCmd,
 	//"update":    ExternalBinary(),
-	"storage": StorageCmd,
 }
 
 // RootRO is the readonly version of Root

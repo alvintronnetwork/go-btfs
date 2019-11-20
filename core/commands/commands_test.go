@@ -232,6 +232,9 @@ func TestCommands(t *testing.T) {
 		"/storage/hosts",
 		"/storage/hosts/sync",
 		"/storage/hosts/info",
+		"/guard",
+		"/guard/test",
+		"/guard/test/send-challenges",
 	}
 
 	cmdSet := make(map[string]struct{})
